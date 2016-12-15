@@ -1,0 +1,24 @@
+set terminal postscript color
+set output "qsort_plot.ps"
+set xlabel "Size"
+set ylabel "Execution time"
+plot "gnuplotdatafile.txt" using 1:2 title "median" with lines, "gnuplotdatafile.txt" using 1:3 title "random" with  lines
+quit
+set terminal postscript color
+set output "qsort_plot.ps"
+set xlabel "Size"
+set ylabel "Execution time"
+plot "gnuplotdatafile.txt" using 1:2 title "median" with lines, "gnuplotdatafile.txt" using 1:3 title "random" with  lines
+quit
+set terminal postscript color
+set output "qsort_plot.ps"
+set xlabel "Size"
+set ylabel "Execution time"
+plot "gnuplotdatafile.txt" using 1:2 title "median" with lines, "gnuplotdatafile.txt" using 1:3 title "random" with  lines
+quit
+set terminal postscript color
+set output "qsort_plot.ps"
+set xlabel "Size"
+set ylabel "Execution time"
+plot "gnuplotdatafile.txt" using 1:2 title "median" with lines, "gnuplotdatafile.txt" using 1:3 title "random" with  lines
+quit
